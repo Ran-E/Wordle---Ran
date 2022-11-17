@@ -1,0 +1,14 @@
+body {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "left header right"
+    "left center1 right"
+    "left center2 right"
+    "left footer right";
+}
+.input_letter {
+  display: block;
+  grid-area: center1;
+}
