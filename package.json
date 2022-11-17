@@ -4,9 +4,9 @@
   "description": "Word guessing game",
   "main": "index.js",
   "scripts": {
-    "build": "sass src/styles/style.scss src/style.css",
+    "build": "sass src/styles/style.scss src/styles/style.css",
     "dev-server": "live-server src",
-    "dev-sass": "sass src/wordle.scss src/wordle.css --watch",
+    "dev-sass": "sass src/styles/style.scss src/styles/style.css --watch",
     "dev": "npm run dev-server & npm run dev-sass",
     "start": "echo \"No start script\" && exit 0",
     "test": "echo \"Error: no test specified\" && exit 1"
