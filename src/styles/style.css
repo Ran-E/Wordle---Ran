@@ -2,11 +2,7 @@ body {
   display: grid;
   grid-template-columns: auto, repeat(3, 2fr), auto;
   grid-template-rows: auto;
-  grid-template-areas:
-    "a b c d e"
-    "f g h i j"
-    "k l m n o"
-    "p q r s t";
+  grid-template-areas: "a b c d e" "f g h i j" "k l m n o" "p q r s t";
 }
 
 .input_word {
@@ -15,10 +11,12 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
-  .input_letter {
-    width: 1em;
-  }
-  .word1 {
-    grid-row-start: 1;
-  }
 }
+.input_word .input_letter {
+  width: 1em;
+}
+.input_word .word1 {
+  grid-row-start: 1;
+}
+
+/*# sourceMappingURL=style.css.map */
