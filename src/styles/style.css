@@ -7,13 +7,15 @@ body {
 
 .input_word {
   grid-area: h;
-  width: 120px;
+  width: 0;
   display: grid;
+  row-gap: 1em;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
+  margin-top: 50%;
 }
 .input_word .input_letter {
-  width: 1em;
+  width: 4em;
+  height: 4em;
 }
 .input_word .word1 {
   grid-row-start: 1;
